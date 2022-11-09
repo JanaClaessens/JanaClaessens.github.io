@@ -1,0 +1,227 @@
+html {
+	margin: 0;
+	padding: 0;
+	
+}
+
+body {
+	background-color: #F5F3F1;
+	
+}
+
+.main {
+	display: flex;
+	flex-flow: column wrap;
+	/* border: 1px solid red; */
+	margin: 40px;
+	
+	/*Scrollbar weg voor afmeten met borders, mogelijks terug naar 'auto'*/
+	overflow: hidden;
+	
+}
+
+p {
+	font-family: Lato;
+	
+}
+
+h1 {
+	font-family: Fontspring-bd;
+}
+
+/*Header*/
+	header {
+		display: flex;
+		flex-flow: row wrap;	
+		width: 100%;
+		margin-bottom: 80px;
+		
+		/* border: 1px solid blue; */
+		
+	}
+	
+	
+	.icon {
+		order: 0;
+		width: 10%;
+		float: left;
+		flex-grow: 1;
+	
+	}
+	
+	.icon img {
+		/* border: 1px solid green; */
+		
+	}
+	
+
+/*Nav*/
+	nav	{
+		display: flex;
+		justify-content: flex-end;
+		order: 1;
+		width: 90%;
+		overflow: auto;
+		flex-grow: 1;
+		
+		/* border: 2px solid green; */
+
+	}
+	
+	nav li {
+		list-style-type: none;
+		margin: 6px;
+		padding: 8px;
+		float: left;
+		font-family: Lato;
+	}
+	
+	.active {
+		border-bottom: 1px solid black;
+		
+	}
+	
+	nav li a {
+		color: black;
+		text-decoration: none;
+		
+	}
+	
+	nav a {
+		padding: 6px;
+		
+	}
+	
+	.plus {
+		text-align: center;
+		display: none;
+		
+	}
+
+/*Article*/
+article {
+	display: flex;
+	order: 2;
+	width: 100%;
+	float: left;
+	
+}
+
+.article-align-left {
+	display: flex;
+	justify-content: center;
+	width: 50%;
+	float: left;
+	
+	/* border: 1px solid blue; */
+	
+}
+
+.article-align-right {
+	display: flex;
+	width: 50%;
+	justify-content: flex-end;
+}
+
+
+
+
+/*Index*/
+.inner-index {
+	display: inline-block;
+	
+}
+
+/*OverMij*/
+.inner-OverMij {
+	margin: 80px;
+}
+
+/*Portfolio*/
+.inner-portfolio {
+	width: 100%;
+	margin: 45px;
+}
+
+.inner-portfolio td {
+	padding-right: 80px;
+	
+}
+
+.portfolio-full-width {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	
+	/* border: 1px solid blue; */
+	
+}
+
+.logoCenter {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	
+}
+
+.logo {
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+    justify-content: center;
+    border-radius: 25%;
+    cursor: pointer;
+    flex-grow: 1;
+    text-align: center;
+    line-height: 0px;
+}
+	
+}
+
+/*Contact*/
+.icons {
+	display: flex;
+	justify-content: center;
+	
+	/* border: 1px solid green; */
+}
+
+.gegevens {
+	margin: 0 auto;
+	
+	/* border: 1px solid green; */
+}
+
+.icons img {
+	margin: 10px 20px 0 0;
+	
+}
+
+.article-align-right-contact {
+	display: flex;
+	justify-content: center;
+	flex-flow: column wrap;
+	width: 100%;
+	
+	/* border: 1px solid yellow; */
+	
+}
+
+.article-align-left-contact {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+	float: left;
+	
+	/* border: 1px solid blue; */
+}
+
+.article-top {
+	margin-top: 80px;
+}
+
+#teamImg {
+	width: 20%;
+	margin: auto;
+}

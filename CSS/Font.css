@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+@font-face {
+	font-family: 'Fontspring-bd';
+	src: url("Font/Fontspring-DEMO-theseasons-bd.otf") format("opentype");
+}
+
+@font-face {
+	font-family: 'Fontspring-bdit';
+	src: url("Font/Fontspring-DEMO-theseasons-bdit.otf") format("opentype");
+}
+
+@font-face {
+	font-family: 'Fontspring-it';
+	src: url("Font/Fontspring-DEMO-theseasons-it.otf") format("opentype");
+}
+
+@font-face {
+	font-family: 'Fontspring-lt';
+	src: url("Font/Fontspring-DEMO-theseasons-lt.otf") format("opentype");
+}
+
+@font-face {
+	font-family: 'Fontspring-ltit';
+	src: url("Font/Fontspring-DEMO-theseasons-ltit.otf") format("opentype");
+}
+
+@font-face {
+	font-family: 'Fontspring-reg';
+	src: url("Font/Fontspring-DEMO-theseasons-reg.otf") format("opentype");
+}

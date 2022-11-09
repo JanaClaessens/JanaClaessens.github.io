@@ -1,0 +1,136 @@
+@media screen and (max-width: 880px) {
+	/*Header*/
+		header {
+			flex-flow: column wrap;		
+			margin-bottom: 0;
+		}
+
+		.article-top {
+			margin-top: 0;
+		}
+
+		.article-portfolio {
+			margin-top: 80px;
+		}
+
+		.icons {
+			text-align: center;
+		}
+		
+		.icon {
+			margin-bottom: 20px;
+			
+		}
+		
+		.responsive-center {
+			margin: 0 auto;
+			
+		}
+		
+		/*Nav aanpassen met + dropdown JS*/
+		nav {
+			width: 100%;
+			justify-content: center;
+			flex-flow: column wrap;
+			
+		}
+		
+		nav li {
+			text-align: center;
+			
+		}
+		
+		.plus {
+			display: block;
+			border-radius: 12px;
+			border: 1px solid black;
+			background-color: white;
+			margin: auto;
+			width: 2rem;
+			font-size: 1.5rem;
+		}
+		
+		
+		.hidden {
+			display: none;
+			
+		}
+		
+		.fadeIn * {
+			animation: fadeIn 1s;
+			animation-fill-mode: forwards;
+			
+		}
+		
+		@keyframes fadeIn {
+			0% {
+				opacity: 0;
+				
+			}
+			
+			100% {
+				opacity: 1;
+				
+			}
+			
+		}
+		
+		.fadeOut * {
+			animation: fadeOut 1s;
+			animation-fill-mode: forwards;
+			
+		}
+		
+		@keyframes fadeOut {
+			0% {
+				opacity: 1;
+				
+			}
+			
+			100% {
+				opacity: 0;
+				
+			}
+			
+		}
+		
+	/*Article*/
+		article {
+			float: none;
+			flex-flow: column wrap;
+			width: 100%;
+			
+		}
+		
+		.article-align-left {
+			float: none;
+			width: 100%;
+			margin-bottom: 25px;
+			
+		}
+		
+		.article-align-right {
+			width: 100%;
+			justify-content: center;
+			
+		}
+		
+	/*Portfolio*/
+		.inner-portfolio {
+			margin: 0 auto;
+			
+		}
+		
+		.logoCenter {
+			flex-flow: column wrap;
+			
+		}
+		
+		.logo {
+			margin-bottom: 40px;
+			
+		}
+		
+		
+
+}
