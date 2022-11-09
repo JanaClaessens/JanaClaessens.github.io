@@ -8,18 +8,18 @@ window.onload=function() {
 	const duckTalk_article = document.getElementById("duckTalk_article");
 	const oogstfeesten_article = document.getElementById("oogstfeesten_article");
 	
-	plus.addEventListener("click", function() {
+	plus?.addEventListener("click", function() {
 		plus.style.display = "none";
 		menu.classList.remove("hidden");
 		menu.classList.add("fadeIn");
 	});
 	
-	duckTalk.addEventListener("click", function() {
+	duckTalk?.addEventListener("click", function() {
 		duckTalk_article.style.display = "block";
 		oogstfeesten_article.style.display = "none";
 	});
 	
-	oogstfeesten.addEventListener("click", function() {
+	oogstfeesten?.addEventListener("click", function() {
 		oogstfeesten_article.style.display = "block";
 		duckTalk_article.style.display = "none";
 	});
